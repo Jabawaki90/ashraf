@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #585858;
+  width: 100%;
+  height: 60px;
+
+  .left-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 20px;
+
+    .item-left {
+      padding-right: 40px;
+    }
+    .item-right {
+      padding-left: 40px;
+    }
+
+    .option {
+      font-size: x-large;
+      font-weight: bold;
+      color: aliceblue;
+    }
+  }
+  .middle-container {
+    width: fit-content;
+    height: fit-content;
+  }
+  .right-container {
+    display: flexbox;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+    width: fit-content;
+    height: fit-content;
+  }
+}
