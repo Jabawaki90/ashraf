@@ -1,9 +1,10 @@
 import "./top-nav.css";
 import SearchBox from "../search-box/search-box";
+import DarkmodeButton from "../darkmode-button/darkmode-button";
 
 const TopNav = () => {
   return (
-    <div className="container">
+    <div className="container-nav">
       <section className="left-container">
         <i
           className="item-left bi bi-house-door-fill"
@@ -16,10 +17,16 @@ const TopNav = () => {
         <SearchBox />
       </section>
       <section className="right-container">
-        <i
-          className="item-right bi bi-person-circle"
-          style={{ fontSize: 40 }}
-        ></i>
+        <DarkmodeButton />
+        <div style={{ marginLeft: "40px" }}>
+          <i className="bi bi-bag" style={{ fontSize: 30, color: "white" }}></i>
+        </div>
+        <div style={{ marginLeft: "40px" }}>
+          <i
+            className="bi bi-person-circle"
+            style={{ fontSize: 40, color: "white" }}
+          ></i>
+        </div>
       </section>
     </div>
   );

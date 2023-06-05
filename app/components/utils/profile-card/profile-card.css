@@ -3,8 +3,8 @@
   justify-content: center;
   background-color: #ffffff;
   border-radius: 25px;
-  width: 525px;
-  height: 540px;
+  width: 500px;
+  height: 500px;
 }
 
 .child-container {
@@ -13,7 +13,7 @@
 }
 
 .image {
-  margin-top: 50px;
+  margin-top: 20px;
   height: 40%;
   width: 40%;
   clip-path: circle();
@@ -22,12 +22,14 @@
 h1 {
   margin: 0;
   font-family: "Courier New", Courier, monospace;
+  color: black;
 }
 
 h2 {
   margin: 0px;
   color: #585858;
   font-family: "Courier New", Courier, monospace;
+  font-size: x-large;
 }
 
 .logo-container {

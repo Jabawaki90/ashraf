@@ -1,4 +1,9 @@
 body {
+  /* background-color: #25231f;
+  margin: 0px 0px 0px 0px; */
+}
+
+.main {
   background-color: #25231f;
   margin: 0px 0px 0px 0px;
 }
@@ -15,6 +20,13 @@ body {
     justify-content: center;
     align-items: center;
   }
+}
+
+.main-page-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
 }
 
 textarea {

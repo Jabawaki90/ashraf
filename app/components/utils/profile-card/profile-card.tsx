@@ -13,7 +13,9 @@ const ProfileCard = () => {
     <div className="card-container">
       <div className="child-container">
         <Image className="image" src={dp} alt="" />
-        <h1 className={fugaz.className}>Ashraf Azemi</h1>
+        <h1 className={fugaz.className} style={{ color: "black" }}>
+          Ashraf Azemi
+        </h1>
         <h2 className={fugaz.className}>Self-taught Software Developer</h2>
         <div className="logo-container">
           <div className="logo" style={{ backgroundColor: "#607D8B" }}>
