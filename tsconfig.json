@@ -29,7 +29,9 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/layout.jsx",
-    "app/page.jsx"
+    "app/page.jsx",
+    "app/components/utils/slider-container/slider-container.jsx",
+    "app/components/utils/profile-card/profile-card.jsx"
   ],
   "exclude": ["node_modules"]
 }
