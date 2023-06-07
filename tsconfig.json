@@ -31,7 +31,10 @@
     "app/layout.jsx",
     "app/page.jsx",
     "app/components/utils/slider-container/slider-container.jsx",
-    "app/components/utils/profile-card/profile-card.jsx"
+    "app/components/utils/profile-card/profile-card.jsx",
+    "app/components/top-nav/top-nav.jsx",
+    "app/components/darkmode-button/darkmode-button.jsx",
+    "app/components/search-box/search-box.jsx"
   ],
   "exclude": ["node_modules"]
 }

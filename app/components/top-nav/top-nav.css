@@ -43,3 +43,19 @@
     height: fit-content;
   }
 }
+
+.dropdown {
+  position: absolute;
+  border-radius: 15px;
+  width: 200px;
+  right: 20px;
+  background-color: aliceblue;
+
+  .dropdown-child-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    /* background-color: aqua; */
+  }
+}
